@@ -209,6 +209,19 @@ section {
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(90,200,255,0.1);
+    margin-left: 115px;
+}
+.about-image-container {
+    margin-left: 20px; 
+    flex-shrink: 0; 
+}
+
+.about-image-container img {
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(90,200,255,0.1);
+    display: block;
 }
 
 .about-text {
